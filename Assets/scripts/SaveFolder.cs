@@ -6,29 +6,30 @@ using UnityEngine.UI;
 public class SaveFolder : MonoBehaviour
 {
     public GameObject CSL;
-    string savePath;
+	public string savePath;
     void Start()
     {
         CSL = GameObject.FindGameObjectWithTag("Events");
+		savePath = CSL.GetComponent<SaveSystem> ().path;
+		print (savePath);
 
-        savePath = CSL.GetComponent<SaveSystem>().CLoadString("savePath");
-        
-        //gameObject.GetComponent<Slider>().value = slider;
+
+		if (System.IO.File.Exists (savePath + "savePath.txt")) {
+			savePath = CSL.GetComponent<SaveSystem> ().CLoadString ("savePath");
+			gameObject.GetComponent<InputField> ().text = savePath;
+		} else {
+			print ("else");
+            CSL.GetComponent<SaveSystem>().CSave(@"\savePath", savePath);
+		}
+           
     }
     public void Change_value()
     {
-        float value = gameObject.GetComponent<Slider>().value;
-        if (value == 1)
-        {
-            CSL.GetComponent<SaveSystem>().CSave("movement", "true");
-        }
-        else
-        {
-            CSL.GetComponent<SaveSystem>().CSave("movement", "false");
-        }
+		
+			CSL.GetComponent<SaveSystem>().CSave("savePath", gameObject.GetComponent<InputField> ().text);
 
+	}
 
-
-    }
+    
 
 }
