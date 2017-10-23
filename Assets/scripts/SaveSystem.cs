@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
+
 public class SaveSystem : MonoBehaviour {
     public string path;
     void Start()
     {
-       
+		
+		path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\ZA5 Saves\\";
     }
 	public void CSave (string name, string value) {
         System.IO.File.WriteAllText(path + name + ".txt",value);

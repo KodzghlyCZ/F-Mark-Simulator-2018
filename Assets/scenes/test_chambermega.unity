@@ -371,6 +371,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 114275830454416474, guid: 0ee8b8aa94855c5428079805a7026eec,
+        type: 2}
+      propertyPath: additive_scene_load
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114275830454416474, guid: 0ee8b8aa94855c5428079805a7026eec,
+        type: 2}
+      propertyPath: additive_scene
+      value: lvl2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114531883191486100, guid: 0ee8b8aa94855c5428079805a7026eec,
+        type: 2}
+      propertyPath: fadeSpeed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0ee8b8aa94855c5428079805a7026eec, type: 2}
   m_IsPrefabParent: 0
@@ -857,6 +872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1513586157}
   - component: {fileID: 1513586156}
+  - component: {fileID: 1513586158}
   m_Layer: 0
   m_Name: chill
   m_TagString: Untagged
@@ -931,7 +947,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -957,6 +973,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!166 &1513586158
+AudioChorusFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1513586155}
+  m_Enabled: 1
+  m_DryMix: 0.5
+  m_WetMix1: 0.5
+  m_WetMix2: 0.5
+  m_WetMix3: 0.5
+  m_Delay: 40
+  m_Rate: 0.8
+  m_Depth: 0.03
 --- !u!1 &1548819175
 GameObject:
   m_ObjectHideFlags: 0

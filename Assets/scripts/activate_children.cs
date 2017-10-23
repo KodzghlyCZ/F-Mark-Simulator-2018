@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class activate_children : MonoBehaviour {
 
@@ -16,6 +17,6 @@ public class activate_children : MonoBehaviour {
 	IEnumerator restart()
 	{
 		yield return new WaitForSeconds (1);
-		Application.LoadLevel (Application.loadedLevel);
+		SceneManager.LoadScene(Application.loadedLevel);
 	}
 }

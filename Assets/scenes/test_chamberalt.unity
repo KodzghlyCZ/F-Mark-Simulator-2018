@@ -435,9 +435,38 @@ Prefab:
       propertyPath: m_Name
       value: Events (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114275830454416474, guid: 0ee8b8aa94855c5428079805a7026eec,
+        type: 2}
+      propertyPath: additive_scene_load
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114275830454416474, guid: 0ee8b8aa94855c5428079805a7026eec,
+        type: 2}
+      propertyPath: additive_scene
+      value: bossfight
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114275830454416474, guid: 0ee8b8aa94855c5428079805a7026eec, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0ee8b8aa94855c5428079805a7026eec, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &853160865 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1921003156223934, guid: 0ee8b8aa94855c5428079805a7026eec,
+    type: 2}
+  m_PrefabInternal: {fileID: 853160864}
+--- !u!114 &853160866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 853160865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85736b0dcde826c4d92f61f4c907ff42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  additive_scene: 
+  additive_scene_load: 0
 --- !u!1001 &879078098
 Prefab:
   m_ObjectHideFlags: 0
