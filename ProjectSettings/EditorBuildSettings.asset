@@ -35,3 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/test_chambermega.unity
     guid: bc2043b453e8cd747854eec02fa97141
+  - enabled: 1
+    path: Assets/scenes/0.unity
+    guid: 64a786b9743c63b44bb079a2b28a2d1f

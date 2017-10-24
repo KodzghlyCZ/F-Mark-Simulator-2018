@@ -1,10 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\activate_children.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\disable_spawner.cs">
     <Files>
-      <File FileName="Assets\scripts\SaveSystem.cs" Line="9" Column="12" />
+      <File FileName="Assets\scripts\SaveSystem.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\Movement_options.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\activate_children.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\move_drozdik.cs" Line="1" Column="1" />
+      <File FileName="Assets\load_scene_timeout.cs" Line="11" Column="5" />
+      <File FileName="Assets\trigger_cu.cs" Line="25" Column="2" />
+      <File FileName="Assets\scripts\basket_spawner.cs" Line="14" Column="78" />
+      <File FileName="Assets\scripts\disable_spawner.cs" Line="23" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

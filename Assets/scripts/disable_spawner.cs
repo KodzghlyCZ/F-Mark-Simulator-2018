@@ -20,7 +20,7 @@ public class disable_spawner : MonoBehaviour {
     {
         if (coll.gameObject.tag == "drozdik")
         {
-            print("Cold");
+            
 
             Destroy(spwner);
 

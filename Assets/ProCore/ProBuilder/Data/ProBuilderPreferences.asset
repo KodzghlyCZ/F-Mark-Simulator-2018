@@ -16,6 +16,7 @@ MonoBehaviour:
   - pbShowCollider
   - pbIconGUI
   - pbShapeWindowFloating
+  - pbCheckForProBuilderUpdates
   m_Int_keys:
   - pbDefaultEditLevel
   - pbDefaultSelectionMode
@@ -24,14 +25,16 @@ MonoBehaviour:
   m_Float_keys:
   - pbEditorScroll.x
   - pbEditorScroll.y
-  m_String_keys: []
+  m_String_keys:
+  - pbLastWebVersionChecked
   m_Color_keys: []
   m_Material_keys: []
-  m_Bool_values: 00010100
+  m_Bool_values: 0001010001
   m_Int_values: 00000000000000000000000001000000
   m_Float_values:
   - 0
   - 0
-  m_String_values: []
+  m_String_values:
+  - 2.9.7f5
   m_Color_values: []
   m_Material_values: []

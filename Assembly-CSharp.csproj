@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\load_scene_timeout.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
@@ -58,6 +59,8 @@
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
      <Compile Include="Assets\scripts\activate_children.cs" />
+     <Compile Include="Assets\scripts\basket_spawner.cs" />
+     <Compile Include="Assets\scripts\destroy_after_col.cs" />
      <Compile Include="Assets\scripts\disable_spawner.cs" />
      <Compile Include="Assets\scripts\easteregg_port.cs" />
      <Compile Include="Assets\scripts\esc.cs" />
@@ -78,6 +81,7 @@
      <Compile Include="Assets\scripts\spawner.cs" />
      <Compile Include="Assets\scripts\Timeout.cs" />
      <Compile Include="Assets\scripts\trigger_15.cs" />
+     <Compile Include="Assets\trigger_cu.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
